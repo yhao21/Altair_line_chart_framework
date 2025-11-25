@@ -218,7 +218,7 @@ def get_chart_lines(df, content_height:int, zero_line = False):
 
     ###------Define lines------###
 
-    lines = alt.Chart(df).transform_fold(plot_cols).mark_line().encode(
+    lines = alt.Chart(df).transform_fold(plot_cols).mark_point(size = 10).encode(
             x = alt.X('Time', title = None, axis = alt.Axis(labelAngle = 0)),
             y = alt.Y('value:Q', title = None),
             #tooltip = rule_tooltip,
