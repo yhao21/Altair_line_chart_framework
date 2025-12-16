@@ -1,0 +1,9 @@
+
+
+[theme]
+backgroundColor = '#2E3440'
+textColor = '#A7BAD1'
+
+[theme.sidebar]
+backgroundColor = '#373E4A'
+textColor = '#D0D1D6'

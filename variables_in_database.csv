@@ -1,0 +1,19 @@
+,variable,platform,frequncy
+UNRATE-FRED-M,Unemployment Rate,FRED,M
+NGDP-BEA-Q,Gross Domestic Product,BEA,Q
+NGDP-BEA-A,Gross Domestic Product,BEA,A
+GDPDeflator-BEA-Q,GDP Deflator,BEA,Q
+GDPDeflator-BEA-A,GDP Deflator,BEA,A
+RGDP-BEA-A,Real Gross Domestic Product,BEA,A
+PCE-BEA-M,Personal Consumption Expenditure,BEA,M
+GDI-BEA-Q,Gross Domestic Income,BEA,Q
+GDI-BEA-A,Gross Domestic Income,BEA,A
+FFRTUPPER-FRED-D,Federal Funds Target Range Upper Limit,FRED,D
+FFRTLOWER-FRED-D,Federal Funds Target Range Lower Limit,FRED,D
+FFRT-FRED-D,Federal Funds Target Rate,FRED,D
+FFER-FRED-D,Federal Funds Effective Rate,FRED,D
+DISCOUNTPRIMARY-FRED-D,Discount Window Primary Credit Rate,FRED,D
+IORR-FRED-D,Interest Rate on Required Reserves,FRED,D
+IORB-FRED-D,Interest Rate on Reserve Balances,FRED,D
+ONRRP-FRED-D,Overnight Reverse Repurchase Agreements Award Rate,FRED,D
+SREPOMR-FRED-D,Standing Repo Facility Minimum Bid Rate,FRED,D

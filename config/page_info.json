@@ -1,0 +1,10 @@
+{
+		"home":{
+				"title":"Home",
+				"url_path":"Home"
+		},
+		"time_series_data":{
+				"title":"Time Series Data",
+				"url_path":"timeseriesdata"
+		}
+}

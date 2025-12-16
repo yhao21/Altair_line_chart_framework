@@ -1,0 +1,106 @@
+{
+		"NGDP-BEA-Q":{
+				"params":{
+						"method":"GetData",
+        		"datasetname":"NIPA",
+        		"tablename":"T10105",
+        		"frequency":"Q",
+        		"year":"ALL",
+        		"resultformat":"json"
+				},
+				"drop_cols":[],
+				"MnToBn":true,
+				"name":"Gross Domestic Product"
+		},
+		"NGDP-BEA-A":{
+				"params":{
+						"method":"GetData",
+        		"datasetname":"NIPA",
+        		"tablename":"T10105",
+        		"frequency":"A",
+        		"year":"ALL",
+        		"resultformat":"json"
+				},
+				"drop_cols":[],
+				"MnToBn":true,
+				"name":"Gross Domestic Product"
+		},
+		"GDPDeflator-BEA-Q":{
+				"params":{
+						"method":"GetData",
+        		"datasetname":"NIPA",
+        		"tablename":"T10104",
+        		"frequency":"Q",
+        		"year":"ALL",
+        		"resultformat":"json"
+				},
+				"drop_cols":[],
+				"MnToBn":"",
+				"name":"GDP Deflator"
+		},
+		"GDPDeflator-BEA-A":{
+				"params":{
+						"method":"GetData",
+        		"datasetname":"NIPA",
+        		"tablename":"T10104",
+        		"frequency":"A",
+        		"year":"ALL",
+        		"resultformat":"json"
+				},
+				"drop_cols":[],
+				"MnToBn":"",
+				"name":"GDP Deflator"
+		},
+		"RGDP-BEA-A":{
+				"params":{
+						"method":"GetData",
+        		"datasetname":"NIPA",
+        		"tablename":"T10106",
+        		"frequency":"A",
+        		"year":"ALL",
+        		"resultformat":"json"
+				},
+				"drop_cols":["Residual"],
+				"MnToBn":true,
+				"name":"Real Gross Domestic Product"
+		},
+		"PCE-BEA-M":{
+				"params":{
+						"method":"GetData",
+        		"datasetname":"NIPA",
+        		"tablename":"T20805",
+        		"frequency":"M",
+        		"year":"ALL",
+        		"resultformat":"json"
+				},
+				"drop_cols":[],
+				"MnToBn":true,
+				"name":"Personal Consumption Expenditure"
+		},
+		"GDI-BEA-Q":{
+				"params":{
+						"method":"GetData",
+        		"datasetname":"NIPA",
+        		"tablename":"T11000",
+        		"frequency":"Q",
+        		"year":"ALL",
+        		"resultformat":"json"
+				},
+				"drop_cols":[],
+				"MnToBn":true,
+				"name":"Gross Domestic Income"
+		},
+		"GDI-BEA-A":{
+				"params":{
+						"method":"GetData",
+        		"datasetname":"NIPA",
+        		"tablename":"T11000",
+        		"frequency":"A",
+        		"year":"ALL",
+        		"resultformat":"json"
+				},
+				"drop_cols":[],
+				"MnToBn":true,
+				"name":"Gross Domestic Income"
+		}
+}

@@ -1,0 +1,72 @@
+{
+		"UNRATE-FRED-M":{
+				"params":{
+						"series_id":"UNRATE",
+						"file_type":"json"
+				},
+				"name":"Unemployment Rate"
+		},
+		"FFER-FRED-D":{
+				"params":{
+						"series_id":"DFF",
+						"file_type":"json"
+				},
+				"name":"Federal Funds Effective Rate"
+		},
+		"FFRTUPPER-FRED-D":{
+				"params":{
+						"series_id":"DFEDTARU",
+						"file_type":"json"
+				},
+				"name":"Federal Funds Target Range Upper Limit"
+		},
+		"FFRTLOWER-FRED-D":{
+				"params":{
+						"series_id":"DFEDTARL",
+						"file_type":"json"
+				},
+				"name":"Federal Funds Target Range Lower Limit"
+		},
+		"FFRT-FRED-D":{
+				"params":{
+						"series_id":"DFEDTAR",
+						"file_type":"json"
+				},
+				"name":"Federal Funds Target Rate"
+		},
+		"DISCOUNTPRIMARY-FRED-D":{
+				"params":{
+						"series_id":"DPCREDIT",
+						"file_type":"json"
+				},
+				"name":"Discount Window Primary Credit Rate"
+		},
+		"IORR-FRED-D":{
+				"params":{
+						"series_id":"IORR",
+						"file_type":"json"
+				},
+				"name":"Interest Rate on Required Reserves"
+		},
+		"IORB-FRED-D":{
+				"params":{
+						"series_id":"IORB",
+						"file_type":"json"
+				},
+				"name":"Interest Rate on Reserve Balances"
+		},
+		"ONRRP-FRED-D":{
+				"params":{
+						"series_id":"RRPONTSYAWARD",
+						"file_type":"json"
+				},
+				"name":"Overnight Reverse Repurchase Agreements Award Rate"
+		},
+		"SREPOMR-FRED-D":{
+				"params":{
+						"series_id":"SRFTSYD",
+						"file_type":"json"
+				},
+				"name":"Standing Repo Facility Minimum Bid Rate"
+		}
+}
