@@ -56,8 +56,3 @@ def get_rgdp(df, p):
 
 
 
-if __name__ == '__main__':
-    df = pd.read_csv('../data/parse_data/NGDP-BEA-A.csv')
-    p = pd.read_csv('../data/parse_data/GDPDeflator-BEA-A.csv')
-    rgdp = get_rgdp(df, p)
-    print(rgdp)

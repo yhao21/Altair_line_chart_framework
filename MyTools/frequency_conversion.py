@@ -61,23 +61,3 @@ def convert_frequency(raw_data, target_frequency:str):
 
 
 
-if __name__ == '__main__':
-    """
-    Time column of raw dataframe must be named as "Time".
-    Input: 
-        1. path of dataset, the frequency of data is included at the end of file name.
-        2. output frequency: str. Frequency of data that user want to receive, such as "M", "Q", "A".
-
-    """
-
-    path_data = './PCE_M.csv'
-    path_data = '../data/parse_data/PCE-BEA-M.csv'
-
-    target_frequency = "QS"
-    df = convert_frequency(path_data, target_frequency)
-
-
-
-
-
-
